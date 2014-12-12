@@ -21,11 +21,14 @@
                     </div>
             <div class="main">
 
+            <div class="main_left">
+
             
 
         Please choose your language.
         <br />
         <br />
+    </div>
     <div>
     
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
@@ -40,6 +43,8 @@
     
     
     </div>
+
+    <div class="main_right">
      
      <asp:Panel ID="questions_panel" runat="server">
     <div>
@@ -78,10 +83,12 @@
     <p></p>
     <asp:Label ID="Label7" runat="server" Text="I wish you well in your career after
     graduation.  I hope you earn "></asp:Label>
-    <asp:Label ID="Lbl_money2" runat="server" Text=""></asp:Label>
+    <asp:Label ID="lbl_money2" runat="server" Text=""></asp:Label>
     <asp:Label ID="Label8" runat="server" Text=" as a salary in your first job!"></asp:Label>
 
     </asp:Panel>
+
+    </div>
 
     </div>
             </div>

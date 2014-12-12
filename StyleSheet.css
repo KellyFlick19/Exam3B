@@ -1,5 +1,6 @@
 ﻿body {background-color:lightgreen;
-      padding: 20px;
+      padding: 100px;
+      padding-top:15px;
 }
 
 h1{font-size:24px;}
@@ -11,7 +12,7 @@ h2{font-size:22px;}
         
 }
 
-.containter{margin: 0 auto;
+.containter{margin:0 auto;
          
             
 }
@@ -19,7 +20,22 @@ h2{font-size:22px;}
 .main {
     background-color: White;
     margin: 0 auto;
-    padding: 50px;
+    padding: 10px;
     border:2px solid black;
+    display:block;
+    width:100%;
+	float:left;
+    clear:both;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+     box-sizing: border-box;
+	}
 }
-       
+
+.main_left {
+    float: left;
+}
+          
+          
+.main_right{float:right;       
+}

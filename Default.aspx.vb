@@ -14,7 +14,7 @@ Partial Class _Default
         lbl_date2.Text = Calendar1.SelectedDate
 
         Dim money As String = tb_money.Text
-        Lbl_money2.Text = String.Format("{0:c}", money)
+        lbl_money2.Text = String.Format("{0:c}", money)
 
         questions_panel.Visible = False
         answers_panel.Visible = True
